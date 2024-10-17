@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <title>Nanonaut Action</title>
+      <title>Ninja Run</title>
 	  <meta charset="UTF-8"> 
 </head>
 <body>
 <script>
         //CONSTANTS
-		var CANVAS_WIDTH = 800;
-		var CANVAS_HEIGHT = 600;
+		var CANVAS_WIDTH = window.innerWidth; //800
+		var CANVAS_HEIGHT = window.innerHeight; //600
+		// var w = window.innerWidth;
+		// var h = window.innerHeight;
 
 		var NANONAUT_WIDTH = 181;
 		var NANONAUT_HEIGHT = 229;
@@ -42,7 +44,6 @@
 
 		//SETUP
 
-		
 		var canvas = document.createElement("canvas");
 		var c = canvas.getContext("2d");
 		canvas.width = CANVAS_WIDTH;
